@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import 'reset.css';
+@import 'position.css';
+
+:root {
+    --color-default-button: white;
+    --color-default-element: rgb(241, 241, 241);
+
+    --color-hover-highlight: rgb(253, 74, 74);
+    --color-gray: rgb(155, 155, 155);
+
+
+    --soft-curve-radius: 5px;
+    --round-curve-radius: 100px;
+
+    --border-thickness-std: 2px;
+    --border-thickness-thin: 1px;
+    --border-thickness-thick: 4px;
+}
+
+body {
+    padding: 0 2vw;
+}
+
+.stack-panel--column {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    align-items:flex-start;
+}
+
+.sg-title {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(164, 255, 255);
+    padding: 10px 20px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+.sg-title::before{
+    content: "-- ";
+}
+
+.btn {
+    background-color: var(--color-default-element);
+    border-radius: var(--round-curve-radius);
+    border-color: black;
+    border-width: 0px;
+    border-style: solid;
+    padding: 8px 16px;
+}
+
+.btn--soft-corners {
+    border-radius: var(--soft-curve-radius);
+}
+
+.btn--outlined {
+    box-shadow: none;
+    border-width: var(--border-thickness-std);
+}
+
+.text {
+    font-family: 'Inter', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.code {
+    all: initial;
+    font-family: monospace;
+    background-color: rgba(155,155,155, 0.2);
+    padding: 2px 10px;
+    border-radius: var(--soft-curve-radius);
+}
+
+.ctheme--shadow-light {
+    border-width: 0px;
+    box-shadow: 2px 2px 4px -4px;
+}
+
+.ctheme--shadow-none {
+    box-shadow: none;
+}
+
+.ctheme--shadow-heavy {
+    border-width: 0px;
+    box-shadow: 0px 3px 16px -8px;
+}
+
+.link{
+    color: var(--color-gray);
+    transition: color;
+    transition-duration: 0.65s;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: var(--color-hover-highlight);
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;;
+}
