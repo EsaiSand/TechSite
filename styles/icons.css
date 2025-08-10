@@ -1,0 +1,27 @@
+.point-icon {
+    max-height: 150px !important;
+    max-width: 150px !important;
+    height: 3rem !important;
+    width: 3rem !important;
+    background-color: var(--accent1);
+    flex-shrink: 0;
+    mask-size: cover;
+
+}
+
+
+.icon-bolt {
+    mask-image: url('images/icons/bolt300.png');
+}
+
+.icon-conveyor {
+    mask-image: url('images/icons/conveyor300.png');
+}
+
+.icon-talk {
+    mask-image: url('images/icons/talk300.png');
+}
+
+.icon-step {
+    mask-image: url('images/icons/step300.png');
+}

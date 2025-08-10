@@ -2,10 +2,7 @@
 @import 'position.css';
 @import 'typography.css';
 @import 'theme.css';
-
-body {
-    position: relative;
-}
+@import 'icons.css';
 
 .bg-gray {
     background-color: lightgray;
@@ -13,4 +10,17 @@ body {
 
 .bg-blue {
     background-color:lightblue
+}
+
+body{
+    position: relative !important;
+    background: #ffffff;
+    background: linear-gradient(158deg, rgba(255, 255, 255, 1) 0%,
+                                        rgba(235, 235, 235, 1) 50%, 
+                                        rgba(211, 218, 222, 1) 100%);
+}
+
+html {
+    overflow-y: scroll !important;
+    scroll-behavior: smooth !important;
 }

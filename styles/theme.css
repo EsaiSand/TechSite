@@ -22,7 +22,8 @@
 
 /* Colors */
 .top-strip {
-    background-color: var(--white);
+    background: #FEFEFE;
+background: linear-gradient(158deg, var(--white) 0%, rgb(240, 242, 244) 100%);
 }
 
 footer {
@@ -35,8 +36,9 @@ footer {
 }
 
 .underline {
-    background-color: var(--accent1);
-    color: var(--accent1)
+    border: none;
+    background: #ff957a;
+    background: linear-gradient(158deg, rgba(255, 149, 122, 1) 0%, rgba(255, 150, 59, 1) 100%);
 }
 
 /* Common Themes, applied to a variety of block elements */
@@ -89,7 +91,9 @@ footer {
 }
 
 
-
+.footer-section {
+    opacity: 70%;
+}
 
 
 /* stuff for style guide */
