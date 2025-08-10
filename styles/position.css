@@ -146,6 +146,7 @@ section {
 #landing {
     background-color: lightgray;
     min-height: 70vh;
+    height: 1px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -167,8 +168,8 @@ footer {
 
 
 .logo-small {
-    height: 80px;
-    width: 80px;
+    height: 4.5rem;
+    width: 4.5rem;
     background-color: red;
 }
 
