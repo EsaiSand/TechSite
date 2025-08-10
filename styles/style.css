@@ -2,7 +2,7 @@
 @import 'position.css';
 @import 'typography.css';
 @import 'theme.css';
-@import 'icons.css';
+@import 'images.css';
 
 .bg-gray {
     background-color: lightgray;
@@ -23,4 +23,29 @@ body{
 html {
     overflow-y: scroll !important;
     scroll-behavior: smooth !important;
+}
+
+#landing {
+    position: relative;
+    background-color: rgba(0,0,0,0);
+}
+
+#landing-mask {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: var(--content-padding);
+
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
+    background-color: rgba(0,0,0,0);
+    background-image: url('images/images/trace_pcb.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+
+    mask: linear-gradient(to right,#0000 40%, #000);
 }

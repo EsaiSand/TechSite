@@ -146,6 +146,7 @@ section {
 #landing {
     background-color: lightgray;
     min-height: 70vh;
+    height: 1px;
     display: flex;
     flex-direction: column;
     justify-content: center;
