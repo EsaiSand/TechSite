@@ -1,0 +1,183 @@
+:root {
+    --content-padding: 8vw;
+}
+
+/* Making each section a large portion of view port minimum */
+section {
+    min-height: 60vh;
+    justify-content: center;
+}
+
+/* Flex Positioning Classes */
+.flex-row {
+    display: flex !important;
+    flex-direction: row !important;
+}
+
+.flex-col {
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.justify-space-between {
+    justify-content: space-between !important;
+}
+.justify-flex-end {
+    justify-content: flex-end !important;
+}
+.justify-center {
+    justify-content: center !important;
+}
+.justify-space-evenly {
+    justify-content: space-evenly !important;
+}
+
+.align-start {
+    align-items: start;
+}
+.align-center {
+    align-items: center !important;
+}
+.align-stretch {
+    align-items: stretch !important;
+}
+
+.align-flex-end {
+    align-items: flex-end;
+}
+
+/* Flex-items alignments */
+
+.self-align-end {
+    align-self: flex-end;
+}
+.self-align-center {
+    align-self: center;
+}
+
+/* Width Classes */
+
+.width-100 {
+    max-width: 100vw !important;
+}
+
+.width-100-full_content {
+    padding: 0 var(--content-padding);
+}
+
+.width-45 {
+    width: 45%;;
+}
+
+/* Spacers */
+
+.spacer-a {
+    height: 2rem;
+    width: 2rem;
+}
+
+.spacer-b {
+    height: 1rem;
+    width: 1rem;
+}
+
+.spacer-c {
+    height: 0.5rem;
+    width: 0.5rem;
+}
+
+.spacer-section {
+    height: 5rem;
+}
+
+/* Classes for shrinking to content, growing to parent */
+
+.collapse-height {
+    height: fit-content !important;
+}
+
+.collapse-width {
+    width: fit-content !important;
+}
+
+.width-fill {
+    width: 100% !important;
+}
+
+/* Generic Positioning classes */
+
+.position-right {
+    position: absolute;
+    right: 0;
+}
+
+.width-limit-60 {
+    max-width: 60%;
+}
+
+.width-40 {
+    max-width: 40%;
+}
+
+.padding-a {
+    padding: 0 50px;
+}
+
+.padding-b {
+    padding: 0 140px;
+}
+
+/* Container Specific Positioning */
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.logo-title {
+    padding: 10px 0;
+}
+
+.top-strip {
+    position: sticky;
+    top: 0;
+}
+
+#landing {
+    background-color: lightgray;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info-graphics {
+    background-color: gray;
+    height: 60vh;
+}
+
+.headshot {
+    width: 100%;
+    height: 350px
+}
+
+footer {
+    min-height: 12rem;
+}
+
+
+.logo-small {
+    height: 80px;
+    width: 80px;
+    background-color: red;
+}
+
+.logo-big {
+    min-height: 250px;
+    min-width: 250px;
+    background-color: black;
+}
+
+.underline {
+    height: 3px;
+}
