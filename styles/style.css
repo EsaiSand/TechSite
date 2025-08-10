@@ -1,0 +1,16 @@
+@import 'reset.css';
+@import 'position.css';
+@import 'typography.css';
+@import 'theme.css';
+
+body {
+    position: relative;
+}
+
+.bg-gray {
+    background-color: lightgray;
+}
+
+.bg-blue {
+    background-color:lightblue
+}
