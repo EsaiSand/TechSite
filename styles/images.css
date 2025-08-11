@@ -25,3 +25,20 @@
 .icon-step {
     mask-image: url('images/icons/step300.png');
 }
+
+/* .logo::before{
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: red;
+} */
+
+.logo {
+    background-color: var(--dark);
+    flex-shrink: 0;
+    mask-image: url('images/images/logo-emblem.PNG');
+    mask-size: cover;
+}
