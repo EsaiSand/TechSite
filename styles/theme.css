@@ -134,3 +134,7 @@ footer {
     padding: 2px 10px;
     border-radius: var(--soft-curve-radius);
 }
+
+.bg-on_dark {
+    background-color: var(--white) !important;
+}
