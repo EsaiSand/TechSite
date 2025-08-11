@@ -40,3 +40,27 @@ p.title-sub {
     font-weight: 450;
     font-size: 1.2rem
 }
+
+/* Modifications for Different device widths */
+
+/* Tablets */
+@media (max-width: 1024px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+/* Phones */
+@media (max-width: 650px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+/* Tiny screens */
+@media (max-width: 480px) {
+    html {
+        font-size: 10px;
+    }
+}
+

@@ -1,9 +1,16 @@
 @import 'reset.css';
-@import 'position.css';
+@import 'layout.css';
 @import 'typography.css';
 @import 'theme.css';
 @import 'images.css';
+@import 'media.css';
 
+
+@media screen and (max-width <= 600px) {
+    .temp {
+        display: none;
+    }
+}
 .bg-gray {
     background-color: lightgray;
 }
@@ -36,8 +43,9 @@ html {
     z-index: -1;
     top: 0;
     right: var(--content-padding);
+    left: var(--content-padding);
 
-    width: 100%;
+    /* width: 100%; */
     height: 100%;
     border-radius: 10px;
 

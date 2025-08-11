@@ -3,7 +3,7 @@
     --color-default-element: rgb(241, 241, 241);
 
     --color-hover-highlight: rgb(253, 74, 74);
-    --color-gray: rgb(155, 155, 155);
+    --color-gray: rgb(48, 48, 48);
 
 
     --soft-curve-radius: 5px;
@@ -60,7 +60,17 @@ footer {
     box-shadow: 0px 3px 16px -8px;
 }
 
+.ctheme--small-radius {
+    border-radius: var(--soft-curve-radius);
+}
+
+.ctheme--large-radius {
+    border-radius: var(--round-curve-radius);
+}
+
 /* Block or Element specific styling */
+
+
 .link{
     color: var(--color-gray);
     transition: color;
