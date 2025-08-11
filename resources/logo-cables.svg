@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="296.96198"
+   height="297.69196"
+   viewBox="0 0 78.571187 78.76433"
+   version="1.1"
+   id="svg1"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="layer1"
+     transform="translate(-0.50021167,-0.18708879)">
+    <g
+       id="g6">
+      <rect
+         style="fill:#1a1a1a;stroke-width:0.25499"
+         id="rect4"
+         width="38.820892"
+         height="75.864449"
+         x="1.1225319"
+         y="1.4031656"
+         ry="0" />
+      <rect
+         style="fill:#1a1a1a;stroke-width:0.36061"
+         id="rect4-8"
+         width="77.641792"
+         height="75.864449"
+         x="1.4296126"
+         y="1.4022021"
+         ry="37.932224"
+         rx="38.820896" />
+    </g>
+    <g
+       id="g5"
+       style="display:inline;fill:#ffffff">
+      <rect
+         style="display:inline;fill:#ffffff;stroke-width:0.245621"
+         id="rect4-1"
+         width="38.437634"
+         height="71.09375"
+         x="0.50021166"
+         y="3.4817095"
+         ry="0" />
+      <rect
+         style="display:inline;fill:#ffffff;stroke-width:0.337933"
+         id="rect4-8-7"
+         width="72.759323"
+         height="71.09375"
+         x="2.8459563"
+         y="3.4808054"
+         ry="35.546875"
+         rx="36.379662" />
+    </g>
+    <use
+       x="0"
+       y="0"
+       xlink:href="#g6"
+       id="use6"
+       transform="matrix(0.90594514,0,0,0.90594514,1.7308454,3.5256211)" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#g5"
+       id="use7"
+       transform="matrix(0.90594514,0,0,0.90594514,1.7308454,3.5256211)" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.417268"
+       id="rect7"
+       width="9.0738001"
+       height="78.764328"
+       x="0.65481049"
+       y="0.18708879" />
+    <circle
+       style="fill:#1a1a1a;stroke-width:0.170532"
+       id="circle8"
+       cx="6.4214168"
+       cy="2.5572329"
+       r="1.3642577" />
+    <circle
+       style="fill:#1a1a1a;stroke-width:0.163298"
+       id="circle9"
+       cx="8.2103519"
+       cy="5.7546873"
+       r="1.3063802" />
+    <circle
+       style="fill:#1a1a1a;stroke-width:0.191203"
+       id="circle10"
+       cx="8.2143631"
+       cy="72.295975"
+       r="1.5296223" />
+    <circle
+       style="fill:#1a1a1a;stroke-width:0.23461"
+       id="path8"
+       cx="5.9117832"
+       cy="76.025887"
+       r="1.8768879" />
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.237172"
+       id="rect11"
+       width="1.6555989"
+       height="2.07897"
+       x="8.5900297"
+       y="1.4031651"
+       ry="0.26893997" />
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.186163"
+       id="rect12"
+       width="1.1264322"
+       height="1.8825995"
+       x="9.3424377"
+       y="4.7952061"
+       ry="0.24353708" />
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.264471"
+       id="rect13"
+       width="0.90123695"
+       height="2.4411945"
+       x="9.5022621"
+       y="71.085068"
+       ry="0.24333103" />
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.386189"
+       id="rect13-7"
+       width="1.7431359"
+       height="2.6912675"
+       x="8.486907"
+       y="74.575348"
+       ry="0.26825756" />
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.264583"
+       id="rect14"
+       width="2.2489583"
+       height="1.0914062"
+       x="6.5319009"
+       y="75.50547"
+       ry="0.26825756" />
+    <rect
+       style="fill:#1a1a1a;stroke-width:0.264583"
+       id="rect15"
+       width="1.7528646"
+       height="0.9921875"
+       x="7.2925777"
+       y="2.0009115"
+       ry="0.26825756" />
+    <circle
+       style="fill:#f9f9f9;stroke-width:0.110257"
+       id="circle15"
+       cx="6.4465156"
+       cy="2.5528052"
+       r="0.88205612" />
+    <circle
+       style="fill:#ffffff;stroke-width:0.0967113"
+       id="circle16"
+       cx="8.2084312"
+       cy="5.7264581"
+       r="0.77368784" />
+    <circle
+       style="fill:#ffffff;stroke-width:0.113688"
+       id="circle17"
+       cx="8.1812906"
+       cy="72.279434"
+       r="0.90950513" />
+    <circle
+       style="fill:#ffffff;stroke-width:0.141076"
+       id="circle18"
+       cx="5.9572582"
+       cy="75.996941"
+       r="1.1286132" />
+  </g>
+</svg>

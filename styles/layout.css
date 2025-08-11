@@ -107,7 +107,7 @@ section {
 /* Generic Positioning classes */
 
 .position-right {
-    position: absolute;
+    position: relative;
     right: 0;
 }
 
@@ -141,6 +141,7 @@ section {
 .top-strip {
     position: sticky;
     top: 0;
+    z-index: 10;
 }
 
 #landing {
@@ -159,7 +160,7 @@ section {
 
 .headshot {
     width: 100%;
-    height: 350px
+    height: 22rem
 }
 
 footer {
@@ -174,11 +175,67 @@ footer {
 }
 
 .logo-big {
-    min-height: 250px;
-    min-width: 250px;
+    min-height: 15.5rem;
+    min-width: 15.5rem;
     background-color: black;
 }
 
 .underline {
     height: 3px;
+}
+
+
+
+/* Modifications for Different device widths */
+
+/* Tablets */
+@media (max-width: 1024px) {
+
+}
+
+
+/* Phones */
+@media (max-width: 650px) {
+
+    .small-100 {
+        width: 100% !important;
+    }
+
+    .small-flex-col {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 2rem;
+    }
+
+    .small-flex-row {
+        display: flex !important;
+        flex-direction: row !important;
+        gap: 2rem;
+    }
+
+    .small-first {
+        order: -1;
+    }
+
+    .small-hidden {
+        display: none;
+    }
+
+    .small-justify {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .small-no-padding {
+        padding: 0;
+    }
+
+    .small-45 {
+        width: 45%;
+    }
+}
+
+/* Tiny screens */
+@media (max-width: 480px) {
+
 }

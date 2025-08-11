@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Carrillo Tech | PCB Manufacturing</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
@@ -28,7 +28,7 @@
     <section id="landing" class="width-100 width-100-full_content">
         <div id="landing-mask"></div>
 
-        <div class="flex-col width-45">
+        <div class="small-100 flex-col width-45">
             <div class="spacer-a"></div>
             <h1>Manufacturing & Designing Together</h1>
             <div class="spacer-a"></div>
@@ -37,7 +37,7 @@
             <h3>Our Engineering Team is ready to engage with you, at any stage in your manufacturing process.</h3>
             <div class="spacer-a"></div>
 
-            <button class="btn self-align-end collapse-width">Contact Us Today</button>
+            <a href="#contact-start" class="btn self-align-end collapse-width link">Contact Us Today</a>
             <div class="spacer-a"></div>
         </div>
     </section>
@@ -45,8 +45,8 @@
     <div class="spacer-section"></div>
 
     <section id="mission" class="width-100 width-100-full_content flex-col">
-        <div class="container-info flex-row justify-space-between align-center">
-            <div class="info width-45">
+        <div class="container-info flex-row small-flex-col justify-space-between align-center">
+            <div class="info width-45 small-100">
                 <h1>Iterate through your Designs.</h1>
                 <div class="spacer-c"></div>
                 <hr class="underline">
@@ -66,15 +66,15 @@
                     <p>DFM checks, assuring our ability to meet your production needs.</p>
                 </div>
             </div>
-            <div class="info-graphics width-45"></div>
+            <div class="info-graphics width-45 small-100"></div>
         </div>
 
         <div class="spacer-a"></div>
 
-        <div class="container-info flex-row justify-space-between align-center">
-            <div class="info-graphics width-45"></div>
+        <div class="container-info flex-row small-flex-col justify-space-between align-center">
+            <div class="info-graphics width-45 small-100"></div>
 
-            <div class="info width-45">
+            <div class="small-first info width-45 small-100">
                 <h1>Produce your Ideas.</h1>
                 <div class="spacer-c"></div>
                 <hr class="underline">
@@ -109,25 +109,32 @@
         <div class="spacer-b"></div>
         <div class="spacer-a"></div>
 
-        <div class="padding-a flex-row justify-space-between">
-            <div class="member-chicklet flex-col width-45">
-                <div class="headshot width-fill bg-gray"></div>
+        <div class="padding-a small-no-padding flex-row small-flex-col justify-space-between">
+            <div class="member-chicklet flex-col width-45 small-100 small-justify small-flex-row">
+                <div class="headshot bg-gray ctheme--small-radius small-45"></div>
 
                 <div class="spacer-c"></div>
-                <h3>Kenneth Carrillo</h3>
-                <p class="ctheme-transparent-60">Electrical Engineer</p>
-                <div class="spacer-c"></div>
-                <p>A short description about the member to fill up some space. Ideally 2-3 lines, varying lengths</p>
+
+                <div class="member-info">
+                    <h3>Kenneth Carrillo</h3>
+                    <p class="ctheme-transparent-60">Electrical Engineer</p>
+                    <div class="spacer-c"></div>
+                    <p>A short description about the member to fill up some space. Ideally 2-3 lines, varying lengths</p>
+                </div>
+
+                
             </div>
 
-            <div class="member-chicklet flex-col width-45">
-                <div class="headshot width-fill bg-gray"></div>
+            <div class="member-chicklet flex-col width-45 small-100 small-justify small-flex-row">
+                <div class="headshot bg-gray ctheme--small-radius small-45"></div>
 
                 <div class="spacer-c"></div>
-                <h3>Esai Sandoval</h3>
-                <p class="ctheme-transparent-60">Software Developer</p>
-                <div class="spacer-c"></div>
-                <p>Another short description for the team member. Will try to have all member descriptions the same number of lines for consistency</p>
+                <div class="member-info small-first">
+                    <h3>Esai Sandoval</h3>
+                    <p class="ctheme-transparent-60">Software Developer</p>
+                    <div class="spacer-c"></div>
+                    <p>Another short description for the team member. Will try to have all member descriptions the same number of lines for consistency</p>
+                </div>
             </div>
         </div>
     </section>
